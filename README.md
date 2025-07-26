@@ -84,20 +84,28 @@ python app.py
 cd frontend
 Open index.html in browser
 
-## 📂 Project Structure
---- bash
-- fake-news-detector/
-- ├── backend/
-- │   ├── app.py                 # Flask backend
-- │   ├── model.pkl              # Trained ML model
-- │   ├── vectorizer.pkl         # TF-IDF vectorizer
-- │   └── requirements.txt       # Python dependencies
-- ├── frontend/
-- │   ├── index.html             # Main HTML file
-- │   ├── style.css              # CSS styling
-- │   └── script.js              # JavaScript logic (fetch API, DOM)
-- ├── README.md
----
+## 📁 Project Structure
+
+```bash
+fake-news-detection/
+├── backend/
+│   ├── app.py               # Flask API with /predict endpoint
+│   ├── model.pkl            # Trained ML model for prediction
+│   ├── vectorizer.pkl       # TF-IDF vectorizer used during training
+│   ├── requirements.txt     # Python dependencies
+│   └── README.md            # Optional backend-specific docs
+│
+├── frontend/
+│   ├── index.html           # Main UI for news input
+│   ├── style.css            # Custom styling
+│   └── script.js            # JS to send API request and display result
+│
+├── dataset/ (optional)
+│   └── news.csv             # Original dataset used for training (if included)
+│
+├── README.md                # Project documentation (you’re reading it!)
+├── render.yaml (optional)  # Configuration file for deployment on Render
+
 
 # 🏆 Achievements
 - 🥇 Presented at Project Expo 2025
