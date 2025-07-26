@@ -85,6 +85,7 @@ cd frontend
 Open index.html in browser
 
 ## 📂 Project Structure
+--- bash
 - fake-news-detector/
 - ├── backend/
 - │   ├── app.py                 # Flask backend
@@ -96,7 +97,7 @@ Open index.html in browser
 - │   ├── style.css              # CSS styling
 - │   └── script.js              # JavaScript logic (fetch API, DOM)
 - ├── README.md
-
+---
 
 # 🏆 Achievements
 - 🥇 Presented at Project Expo 2025
