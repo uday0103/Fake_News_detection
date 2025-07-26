@@ -84,27 +84,7 @@ python app.py
 cd frontend
 Open index.html in browser
 
-## 📁 Project Structure
 
-```bash
-fake-news-detection/
-├── backend/
-│   ├── app.py               # Flask API with /predict endpoint
-│   ├── model.pkl            # Trained ML model for prediction
-│   ├── vectorizer.pkl       # TF-IDF vectorizer used during training
-│   ├── requirements.txt     # Python dependencies
-│   └── README.md            # Optional backend-specific docs
-│
-├── frontend/
-│   ├── index.html           # Main UI for news input
-│   ├── style.css            # Custom styling
-│   └── script.js            # JS to send API request and display result
-│
-├── dataset/ (optional)
-│   └── news.csv             # Original dataset used for training (if included)
-│
-├── README.md                # Project documentation (you’re reading it!)
-├── render.yaml (optional)  # Configuration file for deployment on Render
 
 
 # 🏆 Achievements
@@ -112,8 +92,6 @@ fake-news-detection/
 - 🧠 Live demo impressed faculty and visitors
 - 🎓 Built using self-learned ML and web dev skills
 
-
----
 
 ## 🙋‍♂️ Developed By
 
@@ -158,6 +136,26 @@ We used a **News Aggregator API** to fetch and compare the input article with he
 - [NewsAPI.org](https://newsapi.org/)
 - [ContextualWeb News API](https://rapidapi.com/contextualwebsearch/api/web-search)
 
+## 📁 Project Structure
 
+```bash
+fake-news-detection/
+├── backend/
+│   ├── app.py               # Flask API with /predict endpoint
+│   ├── model.pkl            # Trained ML model for prediction
+│   ├── vectorizer.pkl       # TF-IDF vectorizer used during training
+│   ├── requirements.txt     # Python dependencies
+│   └── README.md            # Optional backend-specific docs
+│
+├── frontend/
+│   ├── index.html           # Main UI for news input
+│   ├── style.css            # Custom styling
+│   └── script.js            # JS to send API request and display result
+│
+├── dataset/ (optional)
+│   └── news.csv             # Original dataset used for training (if included)
+│
+├── README.md                # Project documentation (you’re reading it!)
+├── render.yaml (optional)  # Configuration file for deployment on Render
 
 
