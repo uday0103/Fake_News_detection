@@ -104,12 +104,18 @@ Open index.html in browser
 - 🎓 Built using self-learned ML and web dev skills
 
 
-# 🙋‍♂️ Developed By
+---
 
-- Uday Kumar Botlagunta
-- Founder @ WebTides | B.Tech CSE, PACE ITS
-- 📧 udayckumar@gmail.com
-- 🔗 LinkedIn | GitHub
+## 🙋‍♂️ Developed By
+
+**Uday Kumar Botlagunta**  
+Founder @ WebTides | B.Tech CSE, PACE Institute of Technology and Sciences  
+📧 [udayckumar@gmail.com](mailto:udayckumar@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/uday-kumar-0b5564348/)  
+💻 [GitHub](https://github.com/uday0103)
+
+[![GitHub](https://img.shields.io/badge/GitHub-View_Profile-black?logo=github)](https://github.com/uday0103)
+
 
 # 📜 License
 This project is for educational purposes. Contributions welcome!
