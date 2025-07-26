@@ -22,7 +22,7 @@ This project was developed for a **Project Expo 2025**, showcasing the practical
 3. The system sends the content to our **ML-powered Flask API**.
 4. You'll instantly see a result: ✅ **Real** or ❌ **Fake**.
 
-> Powered by a trained Machine Learning model using real-world datasets and enhanced with NLP for news verification.
+
 
 ---
 
@@ -85,31 +85,31 @@ cd frontend
 Open index.html in browser
 
 ## 📂 Project Structure
-fake-news-detector/
-├── backend/
-│   ├── app.py                 # Flask backend
-│   ├── model.pkl              # Trained ML model
-│   ├── vectorizer.pkl         # TF-IDF vectorizer
-│   └── requirements.txt       # Python dependencies
-├── frontend/
-│   ├── index.html             # Main HTML file
-│   ├── style.css              # CSS styling
-│   └── script.js              # JavaScript logic (fetch API, DOM)
-├── README.md
+- fake-news-detector/
+- ├── backend/
+- │   ├── app.py                 # Flask backend
+- │   ├── model.pkl              # Trained ML model
+- │   ├── vectorizer.pkl         # TF-IDF vectorizer
+- │   └── requirements.txt       # Python dependencies
+- ├── frontend/
+- │   ├── index.html             # Main HTML file
+- │   ├── style.css              # CSS styling
+- │   └── script.js              # JavaScript logic (fetch API, DOM)
+- ├── README.md
 
 
 # 🏆 Achievements
- 🥇 Presented at Project Expo 2025
-🧠 Live demo impressed faculty and visitors
-🎓 Built using self-learned ML and web dev skills
+- 🥇 Presented at Project Expo 2025
+- 🧠 Live demo impressed faculty and visitors
+- 🎓 Built using self-learned ML and web dev skills
 
 
 # 🙋‍♂️ Developed By
 
-Uday Kumar Botlagunta
-Founder @ WebTides | B.Tech CSE, PACE ITS
-📧 udayckumar@gmail.com
-🔗 LinkedIn | GitHub
+- Uday Kumar Botlagunta
+- Founder @ WebTides | B.Tech CSE, PACE ITS
+- 📧 udayckumar@gmail.com
+- 🔗 LinkedIn | GitHub
 
 # 📜 License
 This project is for educational purposes. Contributions welcome!
@@ -143,13 +143,6 @@ We used a **News Aggregator API** to fetch and compare the input article with he
 - [NewsAPI.org](https://newsapi.org/)
 - [ContextualWeb News API](https://rapidapi.com/contextualwebsearch/api/web-search)
 
-```http
-GET /v2/everything?q=keywords&language=en&apiKey=YOUR_API_KEY
 
-## 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/fake-news-detector.git
-cd fake-news-detector
 
 
